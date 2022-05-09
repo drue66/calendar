@@ -1,0 +1,121 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "login": "Andrey",
+      "password": "Andrey"
+    },
+    {
+      "id": 1,
+      "login": "Ivan",
+      "password": "Ivan"
+    },
+    {
+      "id": 2,
+      "login": "Igor",
+      "password": "Igor"
+    },
+    {
+      "id": 3,
+      "login": "Malik",
+      "password": "Malik"
+    },
+    {
+      "id": 4,
+      "login": "Tolik",
+      "password": "Tolik"
+    },
+    {
+      "login": "test",
+      "password": "test",
+      "id": 5
+    },
+    {
+      "login": "drue",
+      "password": "drue",
+      "id": 6
+    }
+  ],
+  "post": [
+    {
+      "id": 0,
+      "title": "Первый пост",
+      "body": "Небольшой текст для первого поста",
+      "comments": [
+        {
+          "id": 0,
+          "author": {
+            "id": 0,
+            "name": "Andrey"
+          },
+          "text": "Ха ха, смешно",
+          "createDate": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Второй пост",
+      "body": "Небольшой текст для второго поста",
+      "comments": [
+        {
+          "id": 1,
+          "author": {
+            "id": 1,
+            "name": "Ivan"
+          },
+          "text": "Ха ха, смешно",
+          "createDate": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Третий пост",
+      "body": "Небольшой текст для третьего поста",
+      "comments": [
+        {
+          "id": 2,
+          "author": {
+            "id": 2,
+            "name": "Igor"
+          },
+          "text": "Ха ха, смешно",
+          "createDate": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Четвертый пост",
+      "body": "Небольшой текст для четвертого поста",
+      "comments": [
+        {
+          "id": 3,
+          "author": {
+            "id": 3,
+            "name": "Malik"
+          },
+          "text": "Ха ха, смешно",
+          "createDate": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Пятый пост",
+      "body": "Небольшой текст для пятого поста",
+      "comments": [
+        {
+          "id": 4,
+          "author": {
+            "id": 4,
+            "name": "Tolik"
+          },
+          "text": "Ха ха, смешно",
+          "createDate": ""
+        }
+      ]
+    }
+  ]
+}

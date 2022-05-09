@@ -1,0 +1,29 @@
+.layout {
+  height: 100vh;
+}
+
+.header {
+  background: #fff;
+  padding: 0 24px 0 0;
+}
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.contentWrapper {
+  margin: 24px 16px 0;
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+}
